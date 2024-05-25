@@ -23,6 +23,14 @@ img.micro {
     margin-right: 3px;
 }
 
+div.pseudo-button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul.tasks {
 
     list-style: none inside;
@@ -83,6 +91,12 @@ hr.invisible {
 
 .text-title {
     color: rgb(255, 199, 78);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-title-alt {
+    color: rgb(82, 243, 154);
     font-size: 18px;
     font-weight: bold;
 }
@@ -148,18 +162,19 @@ hr.invisible {
 
 /* } */
 
-.div_effect_dock {
+.viewport {
     padding-top: 0px;
     font-size: 200%;
     /* background: linear-gradient(135deg, rgba(53, 53, 53, 0.38) 0%, rgba(255, 255, 255, 0) 100%) !important; */
     display: inline-flex;
+    flex-direction: row;
 }
 
-.div_effect_dock.border {
+.viewport.border {
     border-top: 1px solid #1e7aa1;
 }
 
-.div_effect_dock.detach {
+.viewport.detach {
     margin-top: 0px;
 
 }
@@ -216,14 +231,11 @@ button.tall {
 height: 80px;
 } */
 
-.strat_main {
-    width: 300px;
-    background: linear-gradient(135deg, rgba(53, 53, 53, 0.38) 0%, rgba(255, 255, 255, 0) 100%) !important;
-}
 
 .content-viewport {
     width: 300px;
     background: linear-gradient(135deg, rgba(53, 53, 53, 0.38) 0%, rgba(255, 255, 255, 0) 100%) !important;
+    /* 180 degree - right-top-left-bottom */
 }
 
 
@@ -375,8 +387,7 @@ td {
     padding-right: 30px;
 }
 
-.factory-entry {
-}
+.factory-entry {}
 
 .factory-entry-small {}
 
