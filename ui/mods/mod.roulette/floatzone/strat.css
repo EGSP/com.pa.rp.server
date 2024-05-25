@@ -11,13 +11,39 @@
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.342) 0%, rgba(255, 255, 255, 0) 89%) !important;
 }
 
+img.mini {
+    height: 20px;
+    padding: 2px;
+    width: 20px;
+}
+
+img.micro {
+    height: 13px;
+    width: 13px;
+    margin-right: 3px;
+}
+
 ul.tasks {
-    list-style: square inside;
+
+    list-style: none inside;
 }
 
 li.task {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     margin: 0 0 0px;
+    list-style: none
 }
+
+/* li.task::before{
+    content: '';
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-size: 13px;
+    background-image: url(coui://ui/mods/mod.roulette/img/mark.png);
+} */
 
 hr.tall {
     width: 100%;
@@ -42,10 +68,23 @@ hr.invisible {
     opacity: 0;
 }
 
+.text-accent {
+    color: rgb(6, 255, 234) !important;
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 6px;
+}
+
 .text-primary {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     padding-top: 6px;
+}
+
+.text-title {
+    color: rgb(255, 199, 78);
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* UTILITY */
@@ -143,11 +182,7 @@ hr.invisible {
     width: 30px;
 }
 
-img.mini {
-    height: 20px;
-    padding: 2px;
-    width: 20px;
-}
+
 
 .strat_lock_icon {
     background-color: rgba(55, 152, 243, 0.445);
@@ -341,9 +376,9 @@ td {
 }
 
 .factory-entry {
-    margin-right: 50px;
-    padding-left: 40px;
 }
+
+.factory-entry-small {}
 
 .factory-entry-text {
     text-align: center;
@@ -356,4 +391,11 @@ td {
 .factory-entry-arrow {
     width: 30px;
     height: 30px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.factory-entry-arrow-small {
+    width: 20px;
+    height: 20px;
 }

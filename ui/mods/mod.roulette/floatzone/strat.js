@@ -57,10 +57,10 @@ $.get("coui://ui/mods/mod.roulette/floatzone/strat.html", function (html) {
 //controls the positioning of the frame
 model.stratLockEvent = function() {
 if (localStorage["frames_strat_frame_lockStatus"] == "true") {
-    $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/unlock-icon.png");
+    $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/unlock.png");
     unlockFrame("strat_frame");
 } else  {
-    $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/lock-icon.png");
+    $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/lock.png");
     lockFrame("strat_frame");
 }
 

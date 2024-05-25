@@ -30,7 +30,7 @@
                     <img class="mini" src='coui://ui/mods/mod.roulette/img/dice.png' />
                 </button>
             </div>
-            
+
         </div>
 
         <!-- CONTENT -->
@@ -57,62 +57,88 @@
                     <!-- MODIFIERS -->
                     <div id="modifiers-entry" class="entry">
 
-                        <div class="stratTitles">
-                            <span>Modifiers </span>
-                            <loc class="displayed_difficulty" data-bind="text: modifierDifficulty" />
+                        <div class="text-title">
+                            <loc>Modifiers </loc>
                         </div>
-                        <loc class="displayed_text" data-bind="text: modifier" />
+                        <ul class="tasks">
+                            <li class="task">
+                                <img class="micro" src="coui://ui/mods/mod.roulette/img/plan.png" />
+                                <span class="text-accent" data-bind="text: loc(modifier)"></span>
+                            </li>
+                        </ul>
 
                     </div>
                     <hr class="medium gradient-ghost-right" />
                     <!-- EARLYGAME T1 FACTORIES -->
                     <div id="earlygame-entry" class="entry">
+                        <h10 class="text-title">
+                            <loc>Early Game </loc>
+                        </h10>
 
-                        <h10 class="stratTitles"><i>Opening </i>
-                            <loc class="displayed_difficulty" data-bind="text: openingDifficulty" />
-                        </h10><br>
-                        <loc class="displayed_text" data-bind="text: openingName" /><br>
-
-                        <!-- ko foreach: openingFacs -->
-                        <img style="height: 40px; width: 40px;"
-                            data-bind="attr: { src: 'coui://pa/units/' + $data.buildBar + '.png' }" />
-                        <!-- /ko -->
-                        <br>
+                        <div id="factories-t1" class="factories" data-bind="foreach: openingFacs">
+                            <div id="factory-t1-entry" class="factory-entry-small">
+                                <img style="height: 40px; width: 40px;"
+                                    data-bind="attr: { src: 'coui://pa/units/' + $data.buildBar + '.png' }" />
+                                <div class="factory-entry-text" data-bind="text: loc(factory)" />
+                            </div>
+                            <div data-bind="if: $index() < ($parent.openingFacs().length - 1)">
+                                <img class="factory-entry-arrow-small"
+                                    src="coui://ui/mods/mod.roulette/img/arrow-right.png" />
+                            </div>
+                        </div>
                         <ul class="tasks">
-                            <li class="text-primary task" data-bind="text: loc(openingFabsName)"></li>
-                            <li class="text-primary task" data-bind="text: loc(earlyGame)"></li>
+                            <li class="task">
+                                <img class="micro" src="coui://ui/mods/mod.roulette/img/mark.png" />
+                                <span class="text-primary" data-bind="text: loc(openingFabsName)"></span>
+                            </li>
+                            <li class="task">
+                                <img class="micro" src="coui://ui/mods/mod.roulette/img/mark.png" />
+                                <span class="text-primary" data-bind="text: loc(earlyGame)"></span>
+                            </li>
                         </ul>
-
-
-
                     </div>
                     <hr class="medium gradient-ghost-right" />
 
                     <!-- MIDGAME T2 FACTORIES -->
                     <div id="midgame-entry" class="entry">
-                        <h10 class="stratTitles"><i>First/Second T2 </i></h10>
+                        <h10 class="text-title">
+                            <loc>Mid Game </loc>
+                        </h10>
+
                         <div id="factories-t2" class="factories" data-bind="foreach: openingT2Facs">
                             <div id="factory-t2-entry" class="factory-entry">
                                 <img style="height: 60px; width: 60px;"
                                     data-bind="attr: { src: 'coui://pa/units/' + $data.buildBar + '.png' }" />
-                                <div class="factory-entry-text" data-bind="text: loc(factory)"/>
+                                <div class="factory-entry-text" data-bind="text: loc(factory)" />
                             </div>
                             <div data-bind="if: $index() < ($parent.openingT2Facs().length - 1)">
-                                <img class="factory-entry-arrow" src="coui://ui/mods/mod.roulette/img/arrow-right.png" />
+                                <img class="factory-entry-arrow"
+                                    src="coui://ui/mods/mod.roulette/img/arrow-right.png" />
                             </div>
                         </div>
-                        <div class="text-primary" data-bind="text: loc(midGame)" />
+                        <ul class="tasks">
+                            <li class="task">
+                                <img class="micro" src="coui://ui/mods/mod.roulette/img/mark.png" />
+                                <span class="text-primary" data-bind="text: loc(midGame)"></span>
+                            </li>
+                        </ul>
                     </div>
                     <hr class="medium gradient-ghost-right" />
-                
+
+                    <!-- ENDGAME -->
                     <div id="endgame-entry" class="entry">
-                        <h10 class="stratTitles"><i>Endgame(After 2nd T2) </i>
-                            <loc class="displayed_difficulty" data-bind="text: endGameDifficulty" />
-                        </h10><br>
-                        <loc class="displayed_text" data-bind="text: endGame" />
+                        <h10 class="text-title">
+                            <loc>Endgame </loc>
+                        </h10>
+                        <ul class="tasks">
+                            <li class="task">
+                                <img class="micro" src="coui://ui/mods/mod.roulette/img/mark.png" />
+                                <span class="text-primary" data-bind="text: loc(endGame)"></span>
+                            </li>
+                        </ul>
 
                     </div>
-                    <hr class="medium gradient-ghost-right" />
+                    <!-- <hr class="medium gradient-ghost-right" /> -->
 
                     <!-- <div class="entry">
 
@@ -145,9 +171,9 @@
     ko.applyBindings(stratModel, document.getElementById("buttons-secondary"));
 
     if (localStorage["frames_strat_frame_lockStatus"] == "true") {
-        $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/lock-icon.png");
+        $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/lock.png");
     } else {
-        $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/unlock-icon.png");
+        $("#strat_lock").attr("src", "coui://ui/mods/mod.roulette/img/unlock.png");
     }
 
     if (stratUIExpanded() == true) {
