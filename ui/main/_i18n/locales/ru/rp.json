@@ -1,0 +1,404 @@
+{
+    "bot-comrush": {
+        "message": "Ботовый комраш"
+    },
+    "bot": {
+        "message": "Завод ботов"
+    },
+    "air first": {
+        "message": "Авиазавод первым"
+    },
+    "heavy vehicle": {
+        "message": "Тяжелый автозавод"
+    },
+    "reverse 1-1-1": {
+        "message": "Реверс 1-1-1"
+    },
+    "double vehicle": {
+        "message": "Два автозавода"
+    },
+    "meta build": {
+        "message": "Мета билд"
+    },
+    "meta macro": {
+        "message": "Мета макро"
+    },
+    "1-1-1": {
+        "message": "1-1-1"
+    },
+    "double bot": {
+        "message": "Два завода ботов"
+    },
+    "bot-vehicle-air": {
+        "message": "Завод ботов-Автозавод-Авиазавод"
+    },
+    "bot-2air": {
+        "message": "Завод ботов Два-авиазавода"
+    },
+    "vehicle-2air": {
+        "message": "Автозавод Два-авиазавода"
+    },
+    "phyrric comrush": {
+        "message": "Phyrric комраш"
+    },
+    "ferret comrush": {
+        "message": "Ferret комраш"
+    },
+    "metal-fac-power": {
+        "message": "Металл-Завод-Энергия"
+    },
+    "2+metal with com during build": {
+        "message": "Построить +2 металла коммандером во время строительства "
+    },
+    "naval first": {
+        "message": " Военно-морской-завод первым"
+    },
+    "bot first": {
+        "message": "Завод ботов первым"
+    },
+    "vehicle first": {
+        "message": "Автозавод первым"
+    },
+    "naval-air": {
+        "message": "Военно-морской-завод авиазавод"
+    },
+    "bot-naval": {
+        "message": "Завод-ботов военно-морской-завод"
+    },
+    "vehicle-naval": {
+        "message": "Автозавод военно-морской-завод"
+    },
+    "fast standard": {
+        "message": "Быстрый стандарт"
+    },
+    "air heavy standard": {
+        "message": "Авизавод тежелый стандарт"
+    },
+    "bot heavy standard": {
+        "message": "Завод ботов тежелый стандарт"
+    },
+    "meta": {
+        "message": "мета"
+    },
+    "double naval": {
+        "message": "Два военно-морских-завода"
+    },
+    "naval-2air": {
+        "message": "Военно-морской-завод два-авизавода"
+    },
+    "naval-air-naval": {
+        "message": "Военно-морской-завод Авиазавод военно-морской-завод"
+    },
+    "boost air": {
+        "message": "Буст авиа"
+    },
+    "fab drops": {
+        "message": "Высадка фабов"
+    },
+    "spark/inferno drop": {
+        "message": "Высадка spark/inferno"
+    },
+    "commander rush": {
+        "message": "Каммандер раш"
+    },
+    "fab heavy": {
+        "message": "Тяжелый фаб"
+    },
+    "no scouting": {
+        "message": "Без разведки"
+    },
+    "no defenses": {
+        "message": "никакой защиты"
+    },
+    "early orbital": {
+        "message": "Ранняя орбита"
+    },
+    "pre fab units": {
+        "message": "Пред фаб юниты"
+    },
+    "wrong way(expand backwards)": {
+        "message": "Неправильный путь (развернуться назад)"
+    },
+    "gren heavy": {
+        "message": "Тяжелый grenadier"
+    },
+    "line base": {
+        "message": "Линейная база"
+    },
+    "base rush(build base towards opponent aggressively)": {
+        "message": "База раш (агрессивно стройте базу навстречу противнику)"
+    },
+    "no fab snipes": {
+        "message": "Без снайпа фабов"
+    },
+    "drifter heavy": {
+        "message": "Тяжелые drifter"
+    },
+    "boost a t1 fac": {
+        "message": "Буст т1 заводов"
+    },
+    "proxy t2": {
+        "message": "Прокси т2"
+    },
+    "no proxy factories": {
+        "message": "Без прокси заводов"
+    },
+    "piranha spam": {
+        "message": "Piranha спам"
+    },
+    "make an early barnacle": {
+        "message": "Ранний barnacle"
+    },
+    "aggressive naval proxy": {
+        "message": "Агрессивные военно-морские прокси"
+    },
+    "offensive astreus drop": {
+        "message": "Агрессивный дроп astreus"
+    },
+    "astreus com within first few minutes": {
+        "message": "Коммандер в astreus в течении первых минут"
+    },
+    "air": {
+        "message": "Авиазавод"
+    },
+    "vehicle": {
+        "message": "Автозавод"
+    },
+    "naval": {
+        "message": "Военно-морской-завод"
+    },
+    "pelter spam": {
+        "message": "pelter спам"
+    },
+    "silver push": {
+        "message": "Silver пуш"
+    },
+    "air heavy": {
+        "message": "Тяжелый авиазавод"
+    },
+    "reclaim/stitch heavy": {
+        "message": "Тяжелый реклейм/stitch "
+    },
+    "teleporter push": {
+        "message": "Телепорт пуш"
+    },
+    "anchor harass": {
+        "message": "Харасить anchor(якорями) "
+    },
+    "t2 fab first": {
+        "message": "Т2 фаб первым"
+    },
+    "torpedo launcher creep": {
+        "message": "Осада торпедными установками"
+    },
+    "kaiju spam": {
+        "message": "kaiju спам"
+    },
+    "manhattan first unit": {
+        "message": "manhattan первым юнитом"
+    },
+    "vanguard drop": {
+        "message": "vanguard дроп"
+    },
+    "leveler drop": {
+        "message": "leveler дроп"
+    },
+    "locust swarm/spam": {
+        "message": "locust рой/спам"
+    },
+    "t2 bot drop": {
+        "message": "Т2 бот дроп"
+    },
+    "mend creep": {
+        "message": "Осада mend"
+    },
+    "colonel rush": {
+        "message": "colonel раш"
+    },
+    "heavy bluehawk": {
+        "message": "Тежелые bluehawk"
+    },
+    "heavy booms": {
+        "message": "Тяжелые бумботы(boom)"
+    },
+    "early hornet": {
+        "message": "Ранний hornet"
+    },
+    "attempt wyrm snipe": {
+        "message": "Попытка wyrm снайпа"
+    },
+    "early angel": {
+        "message": "Ранний angel"
+    },
+    "no t2 fighters": {
+        "message": "Без т2 истребителей"
+    },
+    "no kestrels": {
+        "message": "Без kestrels"
+    },
+    "Use a nuke": {
+        "message": "Иcпользовать Ядерку(Nuke)"
+    },
+    "build a titan": {
+        "message": "Построить титана"
+    },
+    "use omegas": {
+        "message": "Ипользовать юниты omega"
+    },
+    "use unit cannons": {
+        "message": "Использовать unit cannons"
+    },
+    "Make a holkins": {
+        "message": "Сделать holkins"
+    },
+    "defense creep": {
+        "message": "Атака обронительными сооружениями"
+    },
+    "sxx snipe": {
+        "message": "Снайп юнитами sxx"
+    },
+    "omega snipe": {
+        "message": "Снайп юнитами omega"
+    },
+    "use helios": {
+        "message": "Использовать helios"
+    },
+    "make an ares": {
+        "message": "Сделать ares"
+    },
+    "sheller spam": {
+        "message": "sheller спам"
+    },
+    "large scale t2 drop": {
+        "message": "Крупномасштабный дроп т2"
+    },
+    "make an atlas": {
+        "message": "Сделать atlas"
+    },
+    "colonel spam": {
+        "message": "colonel спам"
+    },
+    "heavy gile": {
+        "message": "Тяжелые GIL-E"
+    },
+    "slammer drop": {
+        "message": "slammer дроп"
+    },
+    "make a zeus": {
+        "message": "Сделать zeus"
+    },
+    "attempt a hornet snipe": {
+        "message": "Попытка horrnet снайпа"
+    },
+    "heavy horsefly": {
+        "message": "Тяжелый horsefly"
+    },
+    "make 3+ angels": {
+        "message": "Потсроить 3+ angels"
+    },
+    "advanced torpedo launcher creep": {
+        "message": "Осада продвинутыми торпедными установками"
+    },
+    "Один авиазавод": {
+        "message": ""
+    },
+    "commander not allowed to move": {
+        "message": "Коммандиру запрещенно передвигаться"
+    },
+    "bot heavy no dox": {
+        "message": "Завод ботов без тяжелых доксов"
+    },
+    "no bombers": {
+        "message": "Без бомбардировщиков"
+    },
+    "heavy defenses": {
+        "message": "Тяжелая оборона"
+    },
+    "delayed com push": {
+        "message": "Отложить ком пуш"
+    },
+    "defensive play": {
+        "message": "Игра в обороне"
+    },
+    "aggressive play": {
+        "message": "Агрессивная игра"
+    },
+    "max 1 t2 fac": {
+        "message": "Максимум один т2 завод"
+    },
+    "all t2 should be proxies": {
+        "message": "Все т2 заводы должны быть прокси"
+    },
+    "no radar": {
+        "message": "Без радара"
+    },
+    "no reclaim": {
+        "message": "Без реклейма"
+    },
+    "fab flood(first factory can only make fabs and cannot be turned off)": {
+        "message": "Строительный потоп (Первый завод можеть производить только фабов и не может быть отключен)"
+    },
+    "t1 only": {
+        "message": "Только т1 "
+    },
+    "no t1 power": {
+        "message": "Без т1 энергии"
+    },
+    "fab only": {
+        "message": "Только фабы"
+    },
+    "patrol only for offense(can defend normally)": {
+        "message": "Патруль только для нападения (могут нормально защищаться)"
+    },
+    "strykers instead of ants/drifters": {
+        "message": "strykers вместо ants/drifters"
+    },
+    "no levelers/slammers/kestrels/t2 fighters": {
+        "message": "Без levelers/slammers/kestrels/t2 истребителей"
+    },
+    "only com is allowed to make t1 metal": {
+        "message": "Только коммандер может строить т1 металл"
+    },
+    "com can't make power": {
+        "message": "Коммандер не может делать энергию"
+    },
+    "no raiding(all attacks must go in a straight as possible line to enemy base from yours)": {
+        "message": "никаких рейдов (все атаки должны идти по прямой линии к базе противника от вашей)"
+    },
+    "mine his metal/stitch drop": {
+        "message": "Зареклейм шахты противника"
+    },
+    "only bots": {
+        "message": "Только боты"
+    },
+    "only vehicles": {
+        "message": "Только авто-танки"
+    },
+    "max 3 fabs": {
+        "message": "Максимум 3 фаба"
+    },
+    "t2 rush(after 4 facs including proxies)": {
+        "message": "Т2 раш(После 4 заводов, включая прокси)"
+    },
+    "large inferno drop(5+)": {
+        "message": "Большой дроп inferno(5+)"
+    },
+    "large boom drop": {
+        "message": "Большой дроп boom(бумботов)"
+    },
+    "angel based snipe": {
+        "message": "Снайп базы юнитом angel"
+    },
+    "anchor creep": {
+        "message": "Осада anchor(якорями)"
+    },
+    "teleporter rush": {
+        "message": "Телепортер раш"
+    },
+    "try a bombersnipe": {
+        "message": "Попробуйте бомберснайп"
+    },
+    "proxy only(1-2 fac per metal cluster based on size)": {
+        "message": "Только прокси (1-2 лица на металлический кластер в зависимости от размера)"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "identifier": "com.pa.rp.server",
+    "author": "Contendors Corporation",
+    "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
+    "display_name": "Random Plan",
+    "description": "_______",
+    "category": [
+        "titans",
+        "units",
+        "balance"
+    ],
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/3821908348803722363/",
+    "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial",
+    "build": "120799",
+    "version": "1.0.0",
+    "date": "2023-06-22",
+    "context": "client",
+    "priority": 91,
+    "scenes": {
+        "LiveGame_FloatZone": [
+            "coui://ui/mods/mod.roulette/floatzone/strat.js"
+        ]
+    },
+    "dependencies": [
+        "com.pa.raevn.rfloatframe"
+    ],
+
+    "framework": false,
+    "signature": "Enjoy this modification!",
+    "titansOnly": true
+}
